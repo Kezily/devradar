@@ -10,7 +10,7 @@ const server = http.Server(app); // servidor http fora do express
 
 setupWebsocket(server);
 
-mongoose.connect('mongodb+srv://omnistack:tL4kK3kG5@cluster0-60pzh.mongodb.net/week10?retryWrites=true&w=majority', {
+mongoose.connect('mongodb+srv://<user>:<password>@<cluster>', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 });
